@@ -51,7 +51,7 @@ export function ExperienceModeProvider({
       const next = !prev;
 
       if (!audioRef.current) {
-        const audio = new Audio("/audio/ambient.mp3");
+        const audio = new Audio("/my-portfolio/audio/ambient.mp3");
         audio.loop = true;
         audio.volume = 0;
         audioRef.current = audio;

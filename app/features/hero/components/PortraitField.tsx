@@ -78,7 +78,7 @@ const PortraitField = ({ name }: PortraitFieldProps) => {
     >
       <div className="relative h-full w-full">
         <Image
-          src="/hero.webp"
+          src="/my-portfolio/hero.webp"
           alt={`Portrait of ${name}`}
           fill
           priority
