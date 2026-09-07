@@ -1,0 +1,345 @@
+@import "tailwindcss";
+
+/* ==========================================
+   Design Tokens — Ivory Gold
+   Warm white / champagne / soft bronze. Light, luxury.
+   ========================================== */
+
+:root {
+  /* Accent */
+  --accent: #c9a44c;
+  --accent-soft: #e9d9ad;
+  /* Surface */
+  --background: #faf6ee;
+  --surface: #f2ead9;
+  --surface-elevated: #ffffff;
+
+  /* Text */
+  --foreground: #2b2318;
+  --foreground-muted: #7a6f58;
+
+  /* Brand */
+  --primary: #b8863b;
+  --primary-foreground: #2b2318;
+
+  /* UI */
+  --border: #e6dbc0;
+
+  /* Feedback */
+  --success: #2f9e6d;
+  --warning: #b45309;
+  --danger: #b3261e;
+
+  /* Atmosphere */
+  --hero-gradient-start: #fffcf4;
+  --hero-gradient-end: #f3e9d3;
+  --hero-glow: rgba(201, 164, 76, 0.2);
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.5);
+
+  /* Effects */
+  --shadow-color: rgba(60, 45, 20, 0.14);
+  --selection: rgba(201, 164, 76, 0.28);
+  --ring: var(--primary);
+}
+
+/* ==========================================
+   Midnight Amethyst
+   Almost black indigo / dark violet / electric amethyst.
+   ========================================== */
+
+[data-theme="midnight-amethyst"] {
+  --accent: #a970ff;
+  --accent-soft: #d3b3ff;
+  --background: #0b0714;
+  --surface: #150f22;
+  --surface-elevated: #1d1530;
+
+  --foreground: #ece6f7;
+  --foreground-muted: #a99cc4;
+
+  --primary: #a970ff;
+  --primary-foreground: #0b0714;
+
+  --border: #2c2140;
+
+  --success: #4ade95;
+  --warning: #ffc857;
+  --danger: #ff6b81;
+
+  --hero-gradient-start: #170f26;
+  --hero-gradient-end: #0b0714;
+  --hero-glow: rgba(169, 112, 255, 0.3);
+
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --selection: rgba(169, 112, 255, 0.25);
+  --ring: var(--primary);
+}
+
+/* ==========================================
+   Graphite Cyan
+   Dark graphite / slate / steel with cool cyan accents.
+   Minimal, futuristic.
+   ========================================== */
+
+[data-theme="graphite-cyan"] {
+  --accent: #4fd8e0;
+  --accent-soft: #a6ecf0;
+  --background: #0c0f12;
+  --surface: #14181c;
+  --surface-elevated: #1b2126;
+
+  --foreground: #e6f3f4;
+  --foreground-muted: #8fa3a8;
+
+  --primary: #4fd8e0;
+  --primary-foreground: #06181a;
+
+  --border: #252e33;
+
+  --success: #4fe0a0;
+  --warning: #f4c95d;
+  --danger: #ff7a7a;
+
+  --hero-gradient-start: #10161a;
+  --hero-gradient-end: #0c0f12;
+  --hero-glow: rgba(79, 216, 224, 0.26);
+
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+
+  --shadow-color: rgba(0, 0, 0, 0.45);
+  --selection: rgba(79, 216, 224, 0.22);
+  --ring: var(--primary);
+}
+
+/* ==========================================
+   Pearl Emerald
+   Pearl white / warm gray / muted emerald & mint.
+   Elegant, premium light theme.
+   ========================================== */
+
+[data-theme="pearl-emerald"] {
+  --accent: #3f9d78;
+  --accent-soft: #a9dcc4;
+  --background: #f7f8f6;
+  --surface: #edf1ed;
+  --surface-elevated: #ffffff;
+
+  --foreground: #1e2622;
+  --foreground-muted: #64716a;
+
+  --primary: #3f9d78;
+  --primary-foreground: #ffffff;
+
+  --border: #dde3de;
+
+  --success: #2f9e6d;
+  --warning: #b45309;
+  --danger: #b3261e;
+
+  --hero-gradient-start: #ffffff;
+  --hero-gradient-end: #eaf1ec;
+  --hero-glow: rgba(63, 157, 120, 0.18);
+
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.5);
+
+  --shadow-color: rgba(30, 38, 34, 0.1);
+  --selection: rgba(63, 157, 120, 0.22);
+  --ring: var(--primary);
+}
+
+/* ==========================================
+   Tailwind Theme Mapping
+   ========================================== */
+
+@theme inline {
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  /* Surface */
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+
+  /* Text */
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+
+  /* Brand */
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  /* UI */
+  --color-border: var(--border);
+
+  /* Feedback */
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+
+  /* Fonts */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ==========================================
+   Stage (fixed dark backdrop for the Hero panel
+   — the portrait is a fixed night photograph, so
+   the backdrop itself stays dark across all 4
+   themes, but every LIGHT/GLOW color on the stage
+   derives from the active theme's accent, so the
+   stage still visibly changes identity per theme)
+   ========================================== */
+
+:root {
+  --stage-bg: #0a0806;
+  --stage-bg-deep: #050403;
+  --stage-line: rgba(255, 255, 255, 0.1);
+  --stage-text: #f3ede2;
+  --stage-text-muted: rgba(243, 237, 226, 0.62);
+  --stage-beam: var(--accent);
+  --stage-beam-soft: color-mix(in srgb, var(--accent) 38%, transparent);
+  --stage-beam-faint: color-mix(in srgb, var(--accent) 14%, transparent);
+  /* Warm base tones tinted by the active theme's accent — the stage backdrop
+     itself stays dark (it's a fixed night photograph) but its cast shifts
+     per theme instead of staying a fixed warm-brown for every theme. */
+  --stage-hotspot: color-mix(in srgb, var(--accent) 24%, #1a140c 76%);
+  --stage-beam-warm: color-mix(in srgb, var(--accent) 30%, #f7cf8a 70%);
+}
+
+/* ==========================================
+   Grain texture (used sparingly, stage only)
+   ========================================== */
+
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+
+/* ==========================================
+   Global Styles
+   ========================================== */
+
+html {
+  color-scheme: light;
+}
+
+[data-theme="midnight-amethyst"],
+[data-theme="graphite-cyan"] {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-background text-foreground font-sans;
+  transition:
+    background-color 400ms ease,
+    color 400ms ease;
+}
+
+::selection {
+  background: var(--selection);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@keyframes beam-drift {
+  0%,
+  100% {
+    transform: rotate(-2deg) translateX(0);
+    opacity: 0.85;
+  }
+  50% {
+    transform: rotate(1deg) translateX(1.5%);
+    opacity: 1;
+  }
+}
+
+@keyframes aurora-drift-a {
+  0%,
+  100% {
+    transform: translate(-4%, -2%) scale(1);
+  }
+  50% {
+    transform: translate(4%, 3%) scale(1.12);
+  }
+}
+
+@keyframes aurora-drift-b {
+  0%,
+  100% {
+    transform: translate(3%, 4%) scale(1.05);
+  }
+  50% {
+    transform: translate(-5%, -2%) scale(0.95);
+  }
+}
+
+@keyframes particle-float {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: var(--particle-opacity, 0.5);
+  }
+  90% {
+    opacity: var(--particle-opacity, 0.5);
+  }
+  100% {
+    transform: translateY(-38px) translateX(6px);
+    opacity: 0;
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes signal-sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
+
+/* ==========================================
+   Theme switch transition (View Transitions API)
+   ========================================== */
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "personal": {
+    "name": "Kamran Wani",
+    "role": "Software Engineer / .NET Full Stack Developer",
+    "tagline": "Building practical, maintainable software across the stack.",
+    "summary": "Software Engineer / .NET Full Stack Developer with 4+ years of professional software development experience across frontend and backend, including 2+ years focused on C#, ASP.NET Core, SQL Server, Entity Framework Core, REST APIs, authentication, authorization, and backend architecture, complemented by 3.5+ years of frontend development experience with React, Next.js, TypeScript, and JavaScript. Also brings 2+ years of internship experience across frontend and full-stack development.",
+    "location": "Srinagar, Jammu and Kashmir, India",
+    "email": "kamraanwani@gmail.com",
+    "resumeUrl": "/resume.pdf",
+    "availability": "Open to new opportunities",
+    "social": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/kamranwani",
+        "icon": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kamran-wani/",
+        "icon": "linkedin"
+      }
+    ],
+    "phone": "7006704866",
+    "portfolioUrl": null
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "From interfaces to the systems behind them",
+    "paragraphs": [
+      "I'm a Software Engineer with 4+ years of professional software development experience across frontend and backend, with 2+ years focused on backend and full-stack engineering using C#, ASP.NET Core, SQL Server, Entity Framework Core, and REST APIs. I also have 3.5+ years of frontend development experience with React, Next.js, TypeScript, and JavaScript.",
+      "I started with frontend development and expanded into backend engineering, databases, API design, authentication, authorization, transactions, and application architecture. My recent work is primarily focused on .NET backend development while continuing to contribute across the frontend when required.",
+      "I care about maintainable software, clear architecture, predictable APIs, well-designed data models, reusable components, and practical engineering decisions without unnecessary complexity."
+    ],
+    "stats": [
+      {
+        "label": "Full-time experience",
+        "value": "4+ yrs"
+      },
+      {
+        "label": ".NET / backend focus",
+        "value": "2+ yrs"
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "heading": "Engineering across the stack",
+    "groups": [
+      {
+        "category": "Frontend",
+        "items": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "TypeScript",
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS",
+          "TanStack Query",
+          "Responsive Design"
+        ]
+      },
+      {
+        "category": "Backend",
+        "items": [
+          "C#",
+          ".NET / ASP.NET Core",
+          "Minimal APIs",
+          "REST APIs",
+          "Entity Framework Core",
+          "Dapper",
+          "ADO.NET",
+          "LINQ",
+          "Node.js",
+          "Express.js",
+          "JWT Authentication",
+          "Authorization"
+        ]
+      },
+      {
+        "category": "Data & Architecture",
+        "items": [
+          "SQL Server",
+          "MongoDB",
+          "Clean Architecture",
+          "Repository Pattern",
+          "Dependency Injection",
+          "Database Transactions",
+          "Database Design",
+          "Data Validation"
+        ]
+      },
+      {
+        "category": "Tools & Integrations",
+        "items": [
+          "Git",
+          "GitHub",
+          "Postman",
+          "Scalar / OpenAPI",
+          "Cloudinary",
+          "Gupshup WhatsApp API"
+        ]
+      }
+    ]
+  },
+  "exploring": {
+    "label": "Currently exploring",
+    "technology": "Dapper, Docker & Azure",
+    "description": "Currently strengthening my experience with Dapper, Docker, and Azure while continuing to improve backend engineering, testing, and production deployment skills."
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "heading": "Where I've worked",
+    "items": [
+      {
+        "company": "CODE3 Innovative Solutions Pvt. Ltd.",
+        "role": "Software Engineer",
+        "duration": "Jun 2024 – Present",
+        "description": "Work primarily on backend and full-stack development using C#, ASP.NET Core, Entity Framework Core, SQL Server, REST APIs, Clean Architecture, JWT authentication, and role-based authorization, while contributing to frontend development with React and Next.js.",
+        "technologies": [
+          "C#",
+          "ASP.NET Core",
+          "Entity Framework Core",
+          "SQL Server",
+          "REST APIs",
+          "React",
+          "Next.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "company": "ElySpace IT Services LLP",
+        "role": "Front-End Developer",
+        "duration": "Sep 2022 – Mar 2024",
+        "description": "Developed responsive client-facing web applications and websites using React, Next.js, JavaScript, HTML, CSS, and modern frontend tools, with experience across WordPress and Webflow projects.",
+        "technologies": [
+          "React",
+          "Next.js",
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS",
+          "WordPress",
+          "Webflow"
+        ]
+      },
+      {
+        "company": "Logichub Software Solutions",
+        "role": "Software Engineer Intern",
+        "duration": "Jul 2021 – Aug 2022",
+        "description": "Gained hands-on experience in full-stack application development using C#, ASP.NET Core, React, SQL Server, Entity Framework Core, and ADO.NET, including APIs, database-backed features, and frontend development.",
+        "technologies": [
+          "C#",
+          "ASP.NET Core",
+          "React",
+          "SQL Server",
+          "Entity Framework Core",
+          "ADO.NET"
+        ]
+      },
+      {
+        "company": "Indegene",
+        "role": "Junior Web Developer",
+        "duration": "Feb 2020 – May 2020",
+        "description": "Developed responsive web interfaces and email templates using HTML5, CSS3, JavaScript, jQuery, and Bootstrap while working with design and marketing requirements.",
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "jQuery",
+          "Bootstrap",
+          "Photoshop"
+        ]
+      },
+      {
+        "company": "Padoco Technologies",
+        "role": "Frontend Developer Intern",
+        "duration": "Feb 2019 – Nov 2019",
+        "description": "Developed responsive web interfaces using HTML5, CSS3, JavaScript, and Bootstrap, including implementation of design specifications and responsive layouts.",
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+      }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Certifications",
+    "heading": "Continuous learning",
+    "items": [
+      {
+        "name": "Networking Basics",
+        "issuer": "Cisco",
+        "issued": "September 2025"
+      },
+      {
+        "name": "Node JS",
+        "issuer": "NamasteDev.com",
+        "issued": "September 2025",
+        "credentialId": "D278457673B665922453685EA6B"
+      },
+      {
+        "name": "HTML/CSS",
+        "issuer": "TestDome",
+        "issued": "May 2024",
+        "credentialId": "www.testdome.com/certificates/6b670ca623d7481ca3a2eeb19abaf967"
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "heading": "Recent Projects",
+    "items": [
+      {
+        "title": "Datanex",
+        "description": "An enterprise work management platform developed for a confidential client based in Abu Dhabi, UAE. The platform manages projects, sites, work activities, progress tracking, images, user access, and document-related metadata.",
+        "image": "/projects/datanex.webp",
+        "tags": [
+          "ASP.NET Core",
+          "C#",
+          "SQL Server",
+          "Entity Framework Core",
+          "Clean Architecture",
+          "React",
+          "TypeScript",
+          "Cloudinary"
+        ],
+        "liveUrl": null,
+        "githubUrl": null,
+        "confidential": true,
+        "status": "In Progress",
+        "problem": "The platform provides structured management of projects, sites, and operational work, including progress records, supporting images, access control, and document metadata tracking.",
+        "details": {
+          "backend": [
+            "C#",
+            "ASP.NET Core",
+            "Entity Framework Core",
+            "SQL Server",
+            "Clean Architecture",
+            "Repository Pattern",
+            "REST APIs",
+            "JWT Authentication",
+            "Role & Claims Authorization",
+            "Data Validation",
+            "Database Transactions",
+            "Consistent API Responses"
+          ],
+          "frontend": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "TanStack Query",
+            "Responsive Design"
+          ],
+          "integrations": ["Cloudinary", "Scalar / OpenAPI"],
+          "scale": [
+            "Approximately 25–30 domain entities",
+            "Approximately 40–50 backend endpoints"
+          ],
+          "notes": "The backend is primarily developed by Kamran as part of a team. Specific business workflows and client data are confidential and cannot be disclosed."
+        }
+      },
+      {
+        "title": "HRMS",
+        "description": "An HRMS product currently under development for internal use and planned commercial use with schools. The project is currently in its foundational phase.",
+        "image": "/projects/hrms.webp",
+        "tags": [
+          "ASP.NET Core",
+          "C#",
+          "Entity Framework Core",
+          "SQL Server",
+          "Clean Architecture"
+        ],
+        "liveUrl": null,
+        "githubUrl": null,
+        "status": "In Progress",
+        "problem": "Building a practical HR management platform for schools and internal company use, starting with a focused first phase and a maintainable backend foundation.",
+        "details": {
+          "backend": [
+            "C#",
+            "ASP.NET Core",
+            "Entity Framework Core",
+            "SQL Server",
+            "Clean Architecture",
+            "Fluent API"
+          ],
+          "focus": [
+            "Backend Architecture",
+            "Database Design",
+            "Entity Configuration",
+            "HR Workflows"
+          ],
+          "notes": "Currently in the early development phase with project setup and initial domain/entity work completed. Dapper is planned for later development and is not represented as an already implemented feature."
+        }
+      },
+      {
+        "title": "Harmain Services",
+        "description": "A live multi-service marketplace platform developed as part of CODE3 project work, connecting customers with service providers and handling service requests, provider notifications, and first-come-first-served job assignment through WhatsApp.",
+        "image": "/projects/harmain.webp",
+        "tags": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "JWT",
+          "Gupshup WhatsApp API"
+        ],
+        "liveUrl": "https://www.harmain.in/",
+        "githubUrl": null,
+        "status": "Live",
+        "problem": "Customers need a simple way to discover and request services while service operations require reliable data handling, communication, and status updates across multiple service categories.",
+        "details": {
+          "frontend": ["Next.js", "React", "JavaScript", "Responsive Design"],
+          "backend": [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "REST APIs",
+            "JWT Authentication"
+          ],
+          "integrations": ["Gupshup WhatsApp API"],
+          "engineering": [
+            "Service Request Management",
+            "First-Come-First-Served Assignment",
+            "Provider Notifications",
+            "API Integration"
+          ],
+          "notes": "Primarily contributed to backend development as part of the CODE3 team. When a customer creates a service request, eligible providers are notified through WhatsApp; the first provider to accept receives the job while other providers are notified that it has been accepted."
+        }
+      },
+      
+      {
+        "title": "Code3is",
+        "description": "A modern company website co-developed with another developer using Next.js, TypeScript, and Tailwind CSS, with UI designs provided by two designers.",
+        "image": "/projects/code3is.webp",
+        "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Responsive Design"],
+        "liveUrl": "https://www.code3is.com/",
+        "githubUrl": null,
+        "status": "Live",
+        "problem": "Modernizing an existing company website and creating a stronger digital presence through a responsive, contemporary frontend experience."
+      },
+      {
+        "title": "Graymax.ae",
+        "description": "A live client website for a company based in Abu Dhabi, UAE, independently developed using Next.js, TypeScript, and Tailwind CSS.",
+        "image": "/projects/greymax.webp",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "API Routes",
+          "Server Components",
+          "SEO"
+        ],
+        "liveUrl": "https://www.greymax.ae/",
+        "githubUrl": null,
+        "status": "Live",
+        "problem": "Modernizing an existing business website with a cleaner interface, improved responsiveness, and a more contemporary web experience.",
+        "details": {
+          "frontend": ["Next.js", "TypeScript", "Tailwind CSS"],
+          "engineering": [
+            "API Routes",
+            "Server Components",
+            "Forms",
+            "SEO",
+            "Responsive Design"
+          ],
+          "deployment": ["Production Deployment"]
+        }
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Let's build something together",
+    "description": "I'm open to Software Engineer and .NET Full Stack opportunities, interesting products, and challenging engineering work.",
+    "ctaLabel": "Say hello"
+  },
+  "footer": {
+    "note": "Designed and built by Kamran Wani."
+  }
+}
