@@ -17,7 +17,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setThemeState] = useState(Theme.IvoryGold);
 
   useEffect(() => {
-    let themeNow = localStorage.getItem("theme");
+    const themeNow = localStorage.getItem("theme");
     const foundTheme = Object.values(Theme).find((theme) => theme === themeNow);
     if (foundTheme) setThemeState(foundTheme);
     else setThemeState(Theme.IvoryGold);
